@@ -1,0 +1,125 @@
+
+
+/*importando as fontes*/
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Unbounded:wght@200;700&display=swap');
+
+
+
+body{
+    background-color: rgb(34, 34, 34);
+    color: white;
+    max-width: 1200px;
+    margin:0 auto;
+    padding: 15px;
+
+}
+ 
+/*cabeçalho*/
+
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/*titulo*/
+
+#title{
+   flex-direction: column;
+   line-height: 10px;
+}
+
+/*conteudo do menu */
+
+li{
+    display: inline-block;
+    margin: 20px;
+}
+
+
+
+
+/*conteudo-principal*/
+
+main{
+    display: flex;
+    flex-direction: row;
+    margin-top: 50px;
+
+}
+
+/*textos*/
+
+h2{
+    font-size:56px;
+    line-height: 10px;
+    font-family: 'Lato', sans-serif;
+
+}
+
+span{
+    color: rgb(132, 13, 301);
+}
+
+p{
+    line-height: 20px;
+    max-width:500px;
+    font-family: 'Unbounded', cursive;
+   
+}
+
+h1{
+
+    font-weight: 200;
+}
+
+/*imagem*/
+
+img{
+    width: 620px;
+}
+
+
+#inscreva-sebtn{
+    border:2px solid rgb(132, 13, 301);
+    padding: 10px;
+    border-radius: 15px;
+}
+
+a{
+    color:white;
+}
+a:hover{
+ color:rgb(132, 13, 301);
+ transition: 0.3s all;
+
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+}
+
+form [type="submit"]{
+   height: 50px;
+   width: 50%;
+   background-color: rgb(132, 13, 301);
+   color:white;
+   font-weight: bold;
+
+}
+
+form [type="submit"]:hover{
+    cursor:pointer;
+}
+
+input{
+    margin-top: 20px;
+    height: 20px;
+    padding: 15px;
+    border-radius: 20px;
+    border:none;
+    font-size:15px;
+}

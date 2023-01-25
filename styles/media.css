@@ -1,0 +1,61 @@
+
+/*responsividade*/
+
+
+@media screen and (max-width: 760px){
+
+
+  
+     header{
+        flex-direction: column;
+     }
+
+    main{
+        flex-direction: column;
+    } 
+
+    h2{
+        font-size: 38px;
+        text-align: center;
+
+    }
+    
+    p{
+       font-size: 15px;
+       max-width:750px
+       display:none;
+    }
+
+
+    form{
+        margin: 0 auto;
+        width: 60%;
+    }
+
+    input{
+        align-self: center;
+    }
+    
+    img{
+        display: none;
+    }
+
+    ul{
+        text-align: center;
+    }
+}
+
+@media screen and (max-width:1068px){
+
+    h2{
+    line-height: 50px;
+   
+     }
+
+     #title{
+        flex-direction: row;
+        line-height: 15px;
+     }
+
+
+}
